@@ -1110,31 +1110,31 @@ section {
 /*--------------------------------------------------------------
 # Our Team
 --------------------------------------------------------------*/
-.team {
+.champs {
   background: #fff;
   padding: 60px 0 30px 0;
 }
 
-.team .member {
+.champs .member {
   text-align: center;
   margin-bottom: 80px;
   position: relative;
 }
 
-.team .member .pic {
+.champs .member .pic {
   border-radius: 4px;
   overflow: hidden;
 }
 
-.team .member img {
+.champs .member img {
   transition: all ease-in-out 0.4s;
 }
 
-.team .member:hover img {
+.champs .member:hover img {
   transform: scale(1.1);
 }
 
-.team .member .member-info {
+.champs .member .member-info {
   position: absolute;
   bottom: -48px;
   left: 20px;
@@ -1144,7 +1144,7 @@ section {
   border-radius: 4px;
 }
 
-.team .member h4 {
+.champs .member h4 {
   font-weight: 700;
   margin-bottom: 10px;
   font-size: 16px;
@@ -1153,7 +1153,7 @@ section {
   padding-bottom: 10px;
 }
 
-.team .member h4::after {
+.champs .member h4::after {
   content: "";
   position: absolute;
   display: block;
@@ -1164,33 +1164,33 @@ section {
   left: calc(50% - 25px);
 }
 
-.team .member span {
+.champs .member span {
   font-style: italic;
   display: block;
   font-size: 13px;
   color: #fff;
 }
 
-.team .member .social {
+.champs .member .social {
   margin-top: 15px;
 }
 
-.team .member .social a {
+.champs .member .social a {
   transition: color 0.3s;
   color: #fff;
 }
 
-.team .member .social a:hover {
+.champs .member .social a:hover {
   color: #9eccf4;
 }
 
-.team .member .social i {
+.champs .member .social i {
   font-size: 16px;
   margin: 0 2px;
 }
 
 @media (max-width: 992px) {
-  .team .member {
+  .champs .member {
     margin-bottom: 100px;
   }
 }
@@ -1198,15 +1198,15 @@ section {
 /*--------------------------------------------------------------
 # Frequently Asked Questions
 --------------------------------------------------------------*/
-.faq {
+.events {
   padding-bottom: 30px;
 }
 
-.faq .faq-item {
+.events .faq-item {
   margin-bottom: 40px;
 }
 
-.faq .faq-item h4 {
+.events .faq-item h4 {
   font-size: 20px;
   line-height: 28px;
   font-weight: 600;
