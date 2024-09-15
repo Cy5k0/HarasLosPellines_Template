@@ -42,7 +42,7 @@
         <i class="bi bi-phone-fill phone-icon"></i> +56 9 7139 5334
       </div>
       <div class="social-links d-none d-md-block">
-        <a href="#" class="language">ES / EN</a>
+        <a href="#" class="language">EN</a>/<a href="./ES/index.html" class="language">ES</a>
         <a href="https://www.instagram.com/haraslospellines/" class="instagram"><i class="bi bi-instagram"></i></a>
       </div>
     </div>
@@ -649,7 +649,38 @@
               <p>+56 9 7139 5334</p>
             </div>
           </div>
-
+          <div class="row">
+            <form action="contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+              <div class="row gy-4">
+    
+                <div class="col-md-6">
+                  <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
+                </div>
+    
+                <div class="col-md-6 ">
+                  <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
+                </div>
+    
+                <div class="col-md-12">
+                  <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
+                </div>
+    
+                <div class="col-md-12">
+                  <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
+                </div>
+    
+                <div class="col-md-12  text-center">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Your message has been sent. Thank you!</div>
+    
+                  <button class="btn btn-primary" type="submit">Enviar Mensaje</button>
+                </div>
+    
+              </div>
+            </form>
+          </div>
+    
 
 
       </div>
