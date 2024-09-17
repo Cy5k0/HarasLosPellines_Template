@@ -300,7 +300,7 @@
                 <div class="portfolio-links">
                   <a href="assets/img/imgsins/Agatha/agatha.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Agatha"><i class="bi bi-zoom-in"></i></a>
                   <a href="stable/agatha.html" title="More Details"><i class="bi bi-link"></i></a>
-                  <div class="modal-dialog modal-xl">hola<div w3-include-html="stable/agatha.html"></div></div>
+                  <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="loadContent('stable/agatha.html')">hola</a>
                 </div>
               </div>
             </div>
@@ -700,20 +700,19 @@
   <!-- ======= Footer ======= -->
   <footer id="footer">
 
-        </div>
-      </div>
-    </div>
+  </div>
+</div>
+</div>
 
-    <div class="container">
-      <div class="copyright">
-        &copy; Copyright <strong><span>Mamba</span></strong>. All Rights Reserved
-      </div> 
-      <div class="credits">
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-      </div>
-    </div>
-  </footer><!-- End Footer -->
-
+<div class="container">
+<div class="copyright">
+  &copy; Copyright <strong><span>SmarTigerDev</span></strong>. All Rights Reserved
+</div> 
+<div class="credits">
+  Designed by SmarTigerDev 2024</a>
+</div>
+</div>
+</footer><!-- End Footer -->
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="fa-solid fa-arrow-up"></i></a>
 
   <!-- Template Main JS File -->
@@ -747,5 +746,15 @@
       });
     });
   </script>  
+  <script>
+    function loadContent(url) {
+      fetch(url)
+        .then(response => response.text())
+        .then(data => {
+          document.getElementById('modalContent').innerHTML = data;
+        })
+        .catch(error => console.error('Error al cargar el archivo:', error));
+    }
+  </script>
 </body>
 </html>
