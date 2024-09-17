@@ -300,6 +300,7 @@
                 <div class="portfolio-links">
                   <a href="assets/img/imgsins/Agatha/agatha.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Agatha"><i class="bi bi-zoom-in"></i></a>
                   <a href="stable/agatha.html" title="More Details"><i class="bi bi-link"></i></a>
+                  <div class="modal-dialog modal-xl">hola<div w3-include-html="stable/agatha.html"></div></div>
                 </div>
               </div>
             </div>
@@ -718,5 +719,33 @@
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const filterButtons = document.querySelectorAll('#portfolio-flters li');
+      const portfolioItems = document.querySelectorAll('.portfolio-item');
+  
+      filterButtons.forEach(button => {
+        button.addEventListener('click', function() {
+          // Eliminar la clase 'filter-active' de todos los botones
+          filterButtons.forEach(btn => btn.classList.remove('filter-active'));
+  
+          // Agregar la clase 'filter-active' al botón actual
+          this.classList.add('filter-active');
+  
+          // Obtener el filtro seleccionado
+          const filterValue = this.getAttribute('data-filter');
+  
+          // Mostrar/ocultar elementos según el filtro seleccionado
+          portfolioItems.forEach(item => {
+            if (filterValue === '*' || item.classList.contains(filterValue.substring(1))) {
+              item.style.display = 'block'; // Mostrar el elemento
+            } else {
+              item.style.display = 'none'; // Ocultar el elemento
+            }
+          });
+        });
+      });
+    });
+  </script>  
 </body>
 </html>
