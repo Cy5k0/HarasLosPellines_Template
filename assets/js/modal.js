@@ -8,7 +8,7 @@ const caballos = [
         madre: "Caballo XX",
         documentacion: "Pendiente",
         detalles: "Aquí puede ir algunos detalles como participacion en concursos exibiciones, etc....",
-        imagenes: ["../assets/img/imgsins/Agatha/agatha.jpg" ]
+        imagenes: ["assets/img/imgsins/Agatha/agatha.jpg" ]
     }, {
         // 1
         nombre: "Alma",
@@ -18,7 +18,7 @@ const caballos = [
         madre: "Caballo XX",
         documentacion: "Pendiente",
         detalles: "Aquí puede ir algunos detalles como participacion en concursos exibiciones, etc....",
-        imagenes: ["../assets/img/imgsins/Alma/HLP-Alma.jpg" ]
+        imagenes: ["assets/img/imgsins/Alma/HLP-Alma.jpg" ]
     }, {
         // 2
         nombre: "HLP-Maksum",
@@ -28,7 +28,7 @@ const caballos = [
         madre: "Caballo XX",
         documentacion: "./assets/doc/Maksum.pdf",
         detalles: "Aquí puede ir algunos detalles como participacion en concursos exibiciones, etc....",
-        imagenes: ["../assets/img/imgsins/Maksum/HLP-Maksum_07.jpg" ]
+        imagenes: ["assets/img/imgsins/Maksum/HLP-Maksum_07.jpg" ]
     } , {
         // 3
         nombre: "Angela",
@@ -38,7 +38,7 @@ const caballos = [
         madre: "Caballo XX",
         documentacion: "./assets/doc/Angela.pdf",
         detalles: "Aquí puede ir algunos detalles como participacion en concursos exibiciones, etc....",
-        imagenes: ["../assets/img/imgsins/Angela/angela.jpg" ]
+        imagenes: ["assets/img/imgsins/Angela/angela.jpg" ]
     } , {
         // 4
         nombre: "Aston",
@@ -48,7 +48,7 @@ const caballos = [
         madre: "Caballo XX",
         documentacion: "Pendiente",
         detalles: "Aquí puede ir algunos detalles como participacion en concursos exibiciones, etc....",
-        imagenes: ["../assets/img/imgsins/Aston/Aston.jpg" ]
+        imagenes: ["assets/img/imgsins/Aston/Aston.jpg" ]
     } , {
         // 5
         nombre: "Charles",
@@ -58,7 +58,7 @@ const caballos = [
         madre: "Caballo XX",
         documentacion: "Pendiente",
         detalles: "Aquí puede ir algunos detalles como participacion en concursos exibiciones, etc....",
-        imagenes: ["../assets/img/imgsins/Charles/Charles.jpg" ]
+        imagenes: ["assets/img/imgsins/Charles/Charles.jpg" ]
     } , {
         // 6
         nombre: "HLP-Charlotte",
@@ -68,7 +68,7 @@ const caballos = [
         madre: "Caballo XX",
         documentacion: "Pendiente",
         detalles: "Aquí puede ir algunos detalles como participacion en concursos exibiciones, etc....",
-        imagenes: ["../assets/img/imgsins/Charlotte/Charlotte_01.jpg" ]
+        imagenes: ["assets/img/imgsins/Charlotte/Charlotte_01.jpg" ]
     } , {
         // 7
         nombre: "Dominiko",
@@ -78,7 +78,7 @@ const caballos = [
         madre: "Caballo XX",
         documentacion: "Pendiente",
         detalles: "Aquí puede ir algunos detalles como participacion en concursos exibiciones, etc....",
-        imagenes: ["../assets/img/imgsins/Domeniko/domeniko01.jpg" ]
+        imagenes: ["assets/img/imgsins/Domeniko/domeniko01.jpg" ]
     } , {
         // 8
         nombre: "Emily",
@@ -88,7 +88,7 @@ const caballos = [
         madre: "Caballo XX",
         documentacion: "Pendiente",
         detalles: "Aquí puede ir algunos detalles como participacion en concursos exibiciones, etc....",
-        imagenes: ["../assets/img/imgsins/Emily/emily01.jpg" ]
+        imagenes: ["assets/img/imgsins/Emily/emily01.jpg" ]
     } , {
         // 9
         nombre: "Alma",
@@ -98,7 +98,7 @@ const caballos = [
         madre: "Caballo XX",
         documentacion: "Pendiente",
         detalles: "Aquí puede ir algunos detalles como participacion en concursos exibiciones, etc....",
-        imagenes: ["../assets/img/imgsins/Alma/HLP-Alma.jpg" ]
+        imagenes: ["assets/img/imgsins/Alma/HLP-Alma.jpg" ]
     } , {
         // 10
         nombre: "Alma",
@@ -108,7 +108,7 @@ const caballos = [
         madre: "Caballo XX",
         documentacion: "Pendiente",
         detalles: "Aquí puede ir algunos detalles como participacion en concursos exibiciones, etc....",
-        imagenes: ["../assets/img/imgsins/Alma/HLP-Alma.jpg" ]
+        imagenes: ["assets/img/imgsins/Alma/HLP-Alma.jpg" ]
     } , {
         // 11
         nombre: "Alma",
@@ -118,7 +118,7 @@ const caballos = [
         madre: "Caballo XX",
         documentacion: "Pendiente",
         detalles: "Aquí puede ir algunos detalles como participacion en concursos exibiciones, etc....",
-        imagenes: ["../assets/img/imgsins/Alma/HLP-Alma.jpg" ]
+        imagenes: ["assets/img/imgsins/Alma/HLP-Alma.jpg" ]
     } , {
         // 12
         nombre: "Alma",
@@ -128,7 +128,7 @@ const caballos = [
         madre: "Caballo XX",
         documentacion: "Pendiente",
         detalles: "Aquí puede ir algunos detalles como participacion en concursos exibiciones, etc....",
-        imagenes: ["../assets/img/imgsins/Alma/HLP-Alma.jpg" ]
+        imagenes: ["assets/img/imgsins/Alma/HLP-Alma.jpg" ]
     } , {
         // 13
         nombre: "Alma",
@@ -138,7 +138,7 @@ const caballos = [
         madre: "Caballo XX",
         documentacion: "Pendiente",
         detalles: "Aquí puede ir algunos detalles como participacion en concursos exibiciones, etc....",
-        imagenes: ["../assets/img/imgsins/Alma/HLP-Alma.jpg" ]
+        imagenes: ["assets/img/imgsins/Alma/HLP-Alma.jpg" ]
     } , {
         // 14
         nombre: "Alma",
@@ -148,7 +148,7 @@ const caballos = [
         madre: "Caballo XX",
         documentacion: "Pendiente",
         detalles: "Aquí puede ir algunos detalles como participacion en concursos exibiciones, etc....",
-        imagenes: ["../assets/img/imgsins/Alma/HLP-Alma.jpg" ]
+        imagenes: ["assets/img/imgsins/Alma/HLP-Alma.jpg" ]
     } , {
         // 15
         nombre: "Alma",
@@ -158,7 +158,7 @@ const caballos = [
         madre: "Caballo XX",
         documentacion: "Pendiente",
         detalles: "Aquí puede ir algunos detalles como participacion en concursos exibiciones, etc....",
-        imagenes: ["../assets/img/imgsins/Alma/HLP-Alma.jpg" ]
+        imagenes: ["assets/img/imgsins/Alma/HLP-Alma.jpg" ]
     } , {
         // 16
         nombre: "Alma",
@@ -168,7 +168,7 @@ const caballos = [
         madre: "Caballo XX",
         documentacion: "Pendiente",
         detalles: "Aquí puede ir algunos detalles como participacion en concursos exibiciones, etc....",
-        imagenes: ["../assets/img/imgsins/Alma/HLP-Alma.jpg" ]
+        imagenes: ["assets/img/imgsins/Alma/HLP-Alma.jpg" ]
     } 
 ]
 
