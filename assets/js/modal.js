@@ -86,89 +86,89 @@ const caballos = [
         fechaNacimiento: "Pendiente",
         padre: "Caballo XY",
         madre: "Caballo XX",
-        documentacion: "Pendiente",
+        documentacion: "./assets/doc/Emily.pdf",
         detalles: "Aquí puede ir algunos detalles como participacion en concursos exibiciones, etc....",
         imagenes: ["assets/img/imgsins/Emily/emily01.jpg" ]
     } , {
         // 9
-        nombre: "Alma",
+        nombre: "Johara",
         genero: "Hembra",
         fechaNacimiento: "Pendiente",
         padre: "Caballo XY",
         madre: "Caballo XX",
-        documentacion: "Pendiente",
+        documentacion: "./assets/doc/Shangrila_Johara.pdf",
         detalles: "Aquí puede ir algunos detalles como participacion en concursos exibiciones, etc....",
-        imagenes: ["assets/img/imgsins/Alma/HLP-Alma.jpg" ]
+        imagenes: ["assets/img/imgsins/Johara/johara.jpg"],
     } , {
         // 10
-        nombre: "Alma",
+        nombre: "Martina",
         genero: "Hembra",
         fechaNacimiento: "Pendiente",
         padre: "Caballo XY",
         madre: "Caballo XX",
-        documentacion: "Pendiente",
+        documentacion: "./assets/doc/Shangrila_Martina.pdf",
         detalles: "Aquí puede ir algunos detalles como participacion en concursos exibiciones, etc....",
-        imagenes: ["assets/img/imgsins/Alma/HLP-Alma.jpg" ]
+        imagenes: ["assets/img/imgsins/Martina/martina02.jpg"],
     } , {
         // 11
-        nombre: "Alma",
+        nombre: "Melika",
         genero: "Hembra",
         fechaNacimiento: "Pendiente",
         padre: "Caballo XY",
         madre: "Caballo XX",
-        documentacion: "Pendiente",
+        documentacion: "./assets/doc/HP_Melinka.pdf",
         detalles: "Aquí puede ir algunos detalles como participacion en concursos exibiciones, etc....",
-        imagenes: ["assets/img/imgsins/Alma/HLP-Alma.jpg" ]
+        imagenes: ["assets/img/imgsins/Melika/melika01.jpg" ],
     } , {
         // 12
-        nombre: "Alma",
+        nombre: "Promessa",
         genero: "Hembra",
         fechaNacimiento: "Pendiente",
         padre: "Caballo XY",
         madre: "Caballo XX",
-        documentacion: "Pendiente",
+        documentacion: "./assets/doc/Promessa.pdf",
         detalles: "Aquí puede ir algunos detalles como participacion en concursos exibiciones, etc....",
-        imagenes: ["assets/img/imgsins/Alma/HLP-Alma.jpg" ]
+        imagenes: ["assets/img/imgsins/Promessaa/promessaa02.jpg"],
     } , {
         // 13
-        nombre: "Alma",
+        nombre: "HLP-Sofía",
         genero: "Hembra",
         fechaNacimiento: "Pendiente",
         padre: "Caballo XY",
         madre: "Caballo XX",
-        documentacion: "Pendiente",
+        documentacion: "./assets/doc/Sofia.pdf",
         detalles: "Aquí puede ir algunos detalles como participacion en concursos exibiciones, etc....",
-        imagenes: ["assets/img/imgsins/Alma/HLP-Alma.jpg" ]
+        imagenes: ["assets/img/imgsins/Sofía/HLP-Sofia_02.jpg" ],
     } , {
         // 14
-        nombre: "Alma",
-        genero: "Hembra",
+        nombre: "Sultán",
+        genero: "Macho",
         fechaNacimiento: "Pendiente",
         padre: "Caballo XY",
         madre: "Caballo XX",
-        documentacion: "Pendiente",
+        documentacion: "./assets/doc/Sultan.pdf",
         detalles: "Aquí puede ir algunos detalles como participacion en concursos exibiciones, etc....",
-        imagenes: ["assets/img/imgsins/Alma/HLP-Alma.jpg" ]
+        imagenes: ["assets/img/imgsins/Sultan/sultan01.jpg" ],
     } , {
         // 15
-        nombre: "Alma",
+        nombre: "Very Magical",
         genero: "Hembra",
         fechaNacimiento: "Pendiente",
         padre: "Caballo XY",
         madre: "Caballo XX",
         documentacion: "Pendiente",
         detalles: "Aquí puede ir algunos detalles como participacion en concursos exibiciones, etc....",
-        imagenes: ["assets/img/imgsins/Alma/HLP-Alma.jpg" ]
+        imagenes: ["assets/img/imgsins/Very_Magical/very_magical04.jpg" ],
     } , {
         // 16
-        nombre: "Alma",
+        nombre: "Yassira",
         genero: "Hembra",
         fechaNacimiento: "Pendiente",
         padre: "Caballo XY",
         madre: "Caballo XX",
-        documentacion: "Pendiente",
+        documentacion: "./assets/doc/Yassira.pdf",
         detalles: "Aquí puede ir algunos detalles como participacion en concursos exibiciones, etc....",
-        imagenes: ["assets/img/imgsins/Alma/HLP-Alma.jpg" ]
+        imagenes: ["assets/img/imgsins/Yassira/yassira02.jpg"]
     } 
 ]
 
