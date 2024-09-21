@@ -2,7 +2,7 @@ const caballos = [
     {   // on documentation must be "Pending"
         // 0
         nombre: "Agatha",
-        genero: "Hembra",
+        genero: "Female", // Hembra
         fechaNacimiento: "xx/xx/xxxx",
         padre: "XY",
         madre: "XX",
@@ -12,7 +12,7 @@ const caballos = [
     }, {
         // 1
         nombre: "Alma",
-        genero: "Hembra",
+        genero: "Female", // Hembra
         fechaNacimiento: "Pending",
         padre: "XY",
         madre: "XX",
@@ -22,7 +22,7 @@ const caballos = [
     }, {
         // 3
         nombre: "Angela",
-        genero: "Macho",
+        genero: "Male", // Macho
         fechaNacimiento: "06/26/2018",
         padre: "HP-Ali",
         madre: "Sweet Enya",
@@ -32,7 +32,7 @@ const caballos = [
     }, {
         // 4
         nombre: "Aston",
-        genero: "Macho",
+        genero: "Male", // Macho
         fechaNacimiento: "Pending",
         padre: "Caballo XY",
         madre: "Caballo XX",
@@ -42,7 +42,7 @@ const caballos = [
     }, {
         // 5
         nombre: "Charles",
-        genero: "Macho",
+        genero: "Male", // Macho
         fechaNacimiento: "Pending",
         padre: "XY",
         madre: "XX",
@@ -52,7 +52,7 @@ const caballos = [
     }, {
         // 6
         nombre: "HLP-Charlotte",
-        genero: "Hembra",
+        genero: "Female", // Hembra
         fechaNacimiento: "Pending",
         padre: "XY",
         madre: "XX",
@@ -62,7 +62,7 @@ const caballos = [
     }, {
         // 7
         nombre: "Dominiko",
-        genero: "Macho",
+        genero: "Male", // Macho
         fechaNacimiento: "Pending",
         padre: "XY",
         madre: "XX",
@@ -72,7 +72,7 @@ const caballos = [
     }, {
         // 8
         nombre: "Emily",
-        genero: "Hembra",
+        genero: "Female", // Hembra
         fechaNacimiento: "09-24-2021",
         padre: "Shangrila Baltazar",
         madre: "HP Colomba - TE",
@@ -82,7 +82,7 @@ const caballos = [
     }, {
         // 9
         nombre: "Johara",
-        genero: "Hembra",
+        genero: "Female", // Hembra
         fechaNacimiento: "10-28-2015",
         padre: "HP Shahmaan",
         madre: "HP Jadda - TE",
@@ -92,7 +92,7 @@ const caballos = [
     }, {
         // 10
         nombre: "Martina",
-        genero: "Hembra",
+        genero: "Female", // Hembra
         fechaNacimiento: "Pending",
         padre: "XY",
         madre: "XX",
@@ -102,7 +102,7 @@ const caballos = [
     }, {
         // 11
         nombre: "Melika",
-        genero: "Hembra",
+        genero: "Female", // Hembra
         fechaNacimiento: "01-19-2019",
         padre: "HP Ali",
         madre: "HP Sarah Te",
@@ -112,7 +112,7 @@ const caballos = [
     }, {
         // 12
         nombre: "Promessaa",
-        genero: "Hembra",
+        genero: "Female", // Hembra
         fechaNacimiento: "05-12-2014",
         padre: "Pogrom",
         madre: "ZT Macja",
@@ -122,7 +122,7 @@ const caballos = [
     }, {
         // 13
         nombre: "HLP-Sofía",
-        genero: "Hembra",
+        genero: "Female", // Hembra
         fechaNacimiento: "12-01-2020",
         padre: "L.L Khartoum",
         madre: "Promessaa",
@@ -132,7 +132,7 @@ const caballos = [
     }, {
         // 14
         nombre: "Sultán",
-        genero: "Macho",
+        genero: "Male", // Macho
         fechaNacimiento: "09-01-2021",
         padre: "Shangrila Baltazar",
         madre: "HSA Takira",
@@ -142,7 +142,7 @@ const caballos = [
     }, {
         // 15
         nombre: "Very Magical",
-        genero: "Hembra",
+        genero: "Female", // Hembra
         fechaNacimiento: "Pending",
         padre: "XY",
         madre: "XX",
@@ -152,7 +152,7 @@ const caballos = [
     }, {
         // 16
         nombre: "Yassira",
-        genero: "Hembra",
+        genero: "Female", // Hembra
         fechaNacimiento: "Pendiente",
         padre: "Caballo XY",
         madre: "Caballo XX",
