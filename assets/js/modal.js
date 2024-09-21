@@ -17,7 +17,7 @@ const caballos = [
         padre: "XY",
         madre: "XX",
         documentacion: "Pending",
-        detalles: "Aquí puede ir algunos detalles como participacion en concursos exibiciones, etc....",
+        detalles: "",
         imagenes: ["assets/img/imgsins/Alma/HLP-Alma.jpg"]
     }, {
         // 3
