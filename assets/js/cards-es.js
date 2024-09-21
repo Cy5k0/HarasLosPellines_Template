@@ -14,13 +14,6 @@ const cards = [
         filtro: "filter-cria",
     },
     {
-        nombreCaballo: "HLP-Maksum",
-        sexo: "MALE",
-        imagenes: ["../assets/img/imgsins/Maksum/HLP-Maksum_07.jpg" ],
-        value: 2,
-        filtro: "filter-macho",
-    },
-    {
         nombreCaballo: "Angela",
         sexo: "FEMALE",
         imagenes: ["../assets/img/imgsins/Angela/angela.jpg"],
