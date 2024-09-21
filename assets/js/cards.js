@@ -14,13 +14,6 @@ const cards = [
         filtro: "filter-cria",
     },
     {
-        nombreCaballo: "HLP-Maksum",
-        sexo: "MALE",
-        imagenes: ["assets/img/imgsins/Maksum/HLP-Maksum_07.jpg" ],
-        value: 2,
-        filtro: "filter-macho",
-    },
-    {
         nombreCaballo: "Angela",
         sexo: "FEMALE",
         imagenes: ["assets/img/imgsins/Angela/angela.jpg"],
@@ -56,7 +49,7 @@ const cards = [
         filtro: "filter-macho",
     },
     {
-        nombreCaballo: "Emely",
+        nombreCaballo: "Emily",
         sexo: "FEMALE",
         imagenes: ["assets/img/imgsins/Emily/emily03.jpg"],
         value: 8,
@@ -84,7 +77,7 @@ const cards = [
         filtro: "filter-hembra",
     },
     {
-        nombreCaballo: "Promessa",
+        nombreCaballo: "Promessaa",
         sexo: "FEMALE",
         imagenes: ["assets/img/imgsins/Promessaa/promessaa02.jpg"],
         value: 12,
