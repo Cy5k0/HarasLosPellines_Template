@@ -1,5 +1,5 @@
 const caballos = [
-    {
+    {   // on documentation must be "Pending"
         // 0
         nombre: "Agatha",
         genero: "Hembra",
@@ -13,10 +13,10 @@ const caballos = [
         // 1
         nombre: "Alma",
         genero: "Hembra",
-        fechaNacimiento: "Pendieng",
+        fechaNacimiento: "Pending",
         padre: "XY",
         madre: "XX",
-        documentacion: "Pendieng",
+        documentacion: "Pending",
         detalles: "Aquí puede ir algunos detalles como participacion en concursos exibiciones, etc....",
         imagenes: ["assets/img/imgsins/Alma/HLP-Alma.jpg"]
     }, {
@@ -181,7 +181,13 @@ function cargar(event) {
     madre.innerHTML = caballos[value].madre;
     detalles.innerHTML = caballos[value].detalles;
     // img.setAttribute("src", caballos[value].imagenes[0]);
-    link.setAttribute("href", caballos[value].documentacion);
+    if (caballos[value].documentacion === "Pending") {
+        link.innerHTML = "Pending";
+        link.removeAttribute("href");
+    } else {
+        link.innerHTML = "View documentation";
+        link.setAttribute("href", caballos[value].documentacion);
+    }
 
     // REINICIO CAROUSEL
     carousel.innerHTML="";

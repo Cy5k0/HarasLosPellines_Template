@@ -1,5 +1,5 @@
 const caballos = [
-    {
+    {   // en doucmentacion debe ser Pendiente
         // 0
         nombre: "Agatha",
         genero: "Hembra",
@@ -181,7 +181,13 @@ function cargar(event) {
     madre.innerHTML = caballos[value].madre;
     detalles.innerHTML = caballos[value].detalles;
     // img.setAttribute("src", caballos[value].imagenes[0]);
-    link.setAttribute("href", caballos[value].documentacion);
+    if (caballos[value].documentacion === "Pendiente") {
+        link.innerHTML = "Pendiente";
+        link.removeAttribute("href");
+    } else {
+        link.innerHTML = "Ver documentación";
+        link.setAttribute("href", caballos[value].documentacion);
+    }
 
     // REINICIO CAROUSEL
     carousel.innerHTML="";
